@@ -1,0 +1,153 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.page {
+	background: #fff;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	width: 95%;
+	max-width: 1000px;
+	background: #ffffff;
+	/* box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.2); */
+	border-radius: 15px;
+	padding: 3rem;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.card__left {
+	width: 250px;
+	text-align: left;
+}
+.card__right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* margin-left: 2rem; */
+}
+
+.photo {
+	width: 250px;
+	height: 250px;
+	border-radius: 15px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.2);
+}
+
+.social {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.social > a {
+	display: block;
+	width: 33%;
+	text-align: center;
+}
+.social__icon {
+	width: 60px;
+	height: 60px;
+	margin-top: 10px;
+}
+
+.social > a:nth-child(3),
+.social > a:nth-child(6) {
+	text-align: right;
+}
+
+.social > a:nth-child(1),
+.social > a:nth-child(4) {
+	text-align: left;
+}
+
+h1 {
+	font-size: 5rem;
+	margin: 0;
+	padding: 0;
+	/* margin-left: 2rem;
+	margin-right: 2rem; */
+}
+
+.jobtitle {
+	font-size: 2.3rem;
+	margin-top: 0;
+	margin-bottom: 2rem;
+	color: #666;
+}
+
+.name {
+	color: #a5c4e2;
+}
+
+.surname {
+	color: #3d78b0;
+}
+
+.contact {
+	font-size: 2rem;
+	/* border-top: 2px dashed #ccc;
+	border-bottom: 2px dashed #ccc; */
+	margin-bottom: 3rem;
+	display: inline-block;
+	width: 400px;
+	color: #555;
+	font-style: normal;
+	display: flex;
+	align-items: center;
+}
+.email {
+	border-radius: 10px;
+	padding: 2px 10px;
+	margin-left: 10px;
+	background: #f3f3f3;
+}
+
+.spearator {
+	border-top: 2px dashed #ccc;
+	width: 50%;
+	margin-bottom: 3rem;
+	display: none;
+}
+
+.skills {
+	list-style: none;
+	font-size: 2rem;
+	margin: 0;
+	padding: 0;
+	color: #58a1c5;
+	width: 80%;
+}
+.skills li {
+	display: inline-block;
+	margin-right: 2rem;
+}
+
+.designer {
+	font-size: 1.5rem;
+	color: #cccc;
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+}
